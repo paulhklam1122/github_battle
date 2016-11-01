@@ -2,11 +2,11 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var routes = require('./config/routes');
 
-const USER_DATA = {
-  name: 'Paul Lam',
-  username: 'paulhklam1122',
-  image: "https://avatars1.githubusercontent.com/u/19393158?v=3&s=466"
-};
+// const USER_DATA = {
+//   name: 'Paul Lam',
+//   username: 'paulhklam1122',
+//   image: "https://avatars1.githubusercontent.com/u/19393158?v=3&s=466"
+// };
 
 /*
 Focused

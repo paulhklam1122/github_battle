@@ -2,11 +2,12 @@ var React = require('react');
 var transparentBg = require('../styles').transparentBg;
 var ReactRouter = require('react-router');
 var Link = ReactRouter.Link;
+var MainContainer = require('./MainContainer');
 
 // var Home = React.createClass({
 //   render: function() {
 //     return (
-//       <div className="jumbotron col-sm-12 text-center" style={transparentBg}>
+//       <MainContainer>
 //         <h1>GitHub Battle</h1>
 //         <p className='lead'>Some fancy motto</p>
 //         <Link to='/playerOne'>
@@ -14,7 +15,7 @@ var Link = ReactRouter.Link;
 //             Get Started
 //           </button>
 //         </Link>
-//       </div>
+//       </MainContainer>
 //     );
 //   }
 // });
@@ -22,7 +23,7 @@ var Link = ReactRouter.Link;
 class Home extends React.Component {
   render() {
     return (
-      <div className="jumbotron col-sm-12 text-center" style={transparentBg}>
+      <MainContainer>
         <h1>GitHub Battle</h1>
         <p className='lead'>Some fancy motto</p>
         <Link to='/playerOne'>
@@ -30,7 +31,7 @@ class Home extends React.Component {
             Get Started
           </button>
         </Link>
-      </div>
+      </MainContainer>
     );
   }
 }
